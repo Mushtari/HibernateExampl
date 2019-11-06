@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 
 <!DOCTYPE hibernate-mapping PUBLIC  
-          "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
-          "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
           
-<hibernate-mapping> package="com.LTI.HibExamples.HibernateExmpl"
+<hibernate-mapping package="com.LTI.HibExamples.HibernateExmpl">
   <class name="Employ" table="Employ">
-    	 <id name="id" column="id"
+    	 <id name="id" column="id">
     	 <generator class="sequence">
     	  <param name="sequence">mysequence</param>
     	  </generator>
