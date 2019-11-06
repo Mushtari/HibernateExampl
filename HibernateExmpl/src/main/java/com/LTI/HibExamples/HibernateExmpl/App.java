@@ -15,7 +15,7 @@ public class App
         SessionFactory sf=c.buildSessionFactory(builder.build());
         Session session=sf.openSession();
         Employ emp=new Employ();
-        emp.setEmpName("MUSHTARI");
+        emp.setEmpName("Mushtari Khan");
         emp.setBranch("JAVA");
         session.beginTransaction();
         session.save(emp);
