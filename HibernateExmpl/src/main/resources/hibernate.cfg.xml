@@ -15,6 +15,6 @@
   <!-- Oracle dialect -->
   <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
   
-<mapping resource="com/LTI/HibExamples/HibernateExmpl/Employ.hbm.xml" /> 
+<mapping resource="com/LTI/HibExamples/HibernateExmpl/hibernate.hbm.xml" /> 
 </session-factory>
 </hibernate-configuration>
